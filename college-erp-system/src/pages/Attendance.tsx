@@ -147,7 +147,7 @@ const Attendance = () => {
       record.id === selectedRecord.id ? { ...record, notificationSent: true } : record
     );
     
-    // In a real app, you would update state or make an API call here
+   
   };
   
   const handleSubmitAttendance = () => {
